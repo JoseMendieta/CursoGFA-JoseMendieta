@@ -1,0 +1,22 @@
+{
+  "name": "09clientesoap",
+  "version": "0.1.0",
+  "description": "Cliente del Servicio SOAP  de estados",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "cliente",
+    "soap",
+    "sin",
+    "errores",
+    "estados"
+  ],
+  "author": "Jose Mendieta",
+  "license": "ISC",
+  "dependencies": {
+    "soap": "^0.18.0",
+    "xml2js": "^0.4.17"
+  }
+}

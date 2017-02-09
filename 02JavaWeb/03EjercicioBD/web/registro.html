@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Autobuses</title>
+</head>
+<body>
+<p>Registro de Autobuse</p>
+
+<form method="post" action="/vehiculos">
+    <label for="id">ID: </label>
+    <input id ="id" name= "id" type="number">
+    <br>
+    <label for="tipo">Tipo: </label>
+    <select name="tipo" id="tipo">
+        <option value="automovil">Automóvil</option>
+        <option value="motocicleta">Motocicleta</option>
+        <option value="avion">Avión</option>
+        <option value="helicoptero">Helicoptero</option>
+        <option value="bicicleta">Bicicleta</option>
+    </select>
+    <br>
+    <label for="marca">Marca: </label>
+    <input id ="marca" name= "marca" type="text" maxlength="15">
+    <br>
+    <label for="modelo">Modelo: </label>
+    <input id ="modelo" name= "modelo" type="number" min="1950" max="2017">
+    <label for="ruedas">Ruedas: </label>
+    <input id ="ruedas" name= "ruedas" type="number" min="1" max="20">
+    <br>
+    <button type = "submit">Insertar</button>
+</form>
+
+</body>
+</html>

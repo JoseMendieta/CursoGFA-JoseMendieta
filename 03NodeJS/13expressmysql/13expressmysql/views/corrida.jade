@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    hi Corrida: #{corrida,id}
+        p Origen: #{corrida.origen}
+        p Destino: #{corrida.destino}
+        p Hora Salida : #{corrida.horaSalida}
+        p Fecha Salida : #{corrida.fechaSalida}
+        p Hora Llegada : #{corrida.horaLlegada}
+        p Fecha Llegada : #{corrida.fechaLlegada}
+        p Escalas: #{corrida.escalas}
+        hr
+
+block estilos
+    link(href='/stylesheet/corridas.css', rel='stylesheet')
